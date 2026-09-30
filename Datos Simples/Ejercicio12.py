@@ -3,7 +3,7 @@
 #coste final total.
 novendidas = int(input("Introduce el número de barras vendidas que no son del día: "))
 print("Las barras de pan del día vale: 3.49€")
-descuento = 3.49 * 0.60
+descuento = 3.49 * 0.0
 costefinal = descuento * novendidas
 print(f"El descuento que se le hace por no ser fresca es: {descuento}€")
-print(f"El coste final total es: {costefinal}€")
+print(f"El coste final total es: {round(costefinal, 2)}€")
