@@ -1,0 +1,5 @@
+#Escribir un programa que pregunte al usuario por el número de horas trabajadas y el coste por hora. Después debe mostrar por pantalla la paga que le corresponde.
+horas = float(input("Introduce el número de horas trabajadas: "))
+coste = float(input("Introduce el coste por hora: "))
+paga = horas * coste
+print(f"La paga que le corresponde es: {paga}")
