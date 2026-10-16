@@ -3,16 +3,16 @@
 #intermedios entre las cifras mencionadas. A continuación se muestra una tabla con los niveles correspondientes a cada puntuación. La cantidad de dinero conseguida
 #en cada nivel es de 2.400€ multiplicada por la puntuación del nivel.
 #Escribir un programa que lea la puntuación del usuario e indique su nivel de rendimiento, así como la cantidad de dinero que recibirá el usuario.
-dinero_por_punto = 2400
+dinero = 2400
 puntuacion = float(input("Ingrese su puntuación (0.0, 0.4, 0.6 o más): "))
 if puntuacion == 0.0:
     print("Nivel de rendimiento: Inaceptable")
     print("Cantidad de dinero a recibir: 0€")
 elif puntuacion == 0.4:
     print("Nivel de rendimiento: Aceptable")
-    print(f"Cantidad de dinero a recibir: {dinero_por_punto * puntuacion}€")
+    print(f"Cantidad de dinero a recibir: {dinero * puntuacion}€")
 elif puntuacion == 0.6:
     print("Nivel de rendimiento: Meritorio")
-    print(f"Cantidad de dinero a recibir: {dinero_por_punto * puntuacion}€")
+    print(f"Cantidad de dinero a recibir: {dinero * puntuacion}€")
 else:
-    print(f"Cantidad de dinero a recibir: {dinero_por_punto * puntuacion}€")
+    print(f"Cantidad de dinero a recibir: {dinero * puntuacion}€")
